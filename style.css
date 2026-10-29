@@ -1,0 +1,377 @@
+a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+body {
+    background-image: url("voorpagina.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.Manifest {
+    background-image: url(manifest.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* achtergrond manifest text */
+.Manifest-context {
+    background-color: rgba(217, 171, 254, 0.6);
+    max-width: 850px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Manifest heading */
+.Manifest h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Manifest h2 {
+    text-align: center;
+}
+
+/* Manifest <p> */
+.Manifest p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.manifest-link {
+    text-decoration: underline !important;
+    color: #000000;
+    font-weight: bold;
+}
+
+.manifest-link:hover {
+    color: #bd19b2;
+}
+
+.vlinder {
+    display: block;
+    width: 100%;
+    max-width: 89%;
+    height: auto;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Navigation bar */
+nav {
+    width: 100%;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* button design */
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #241044;
+    border: 2px solid #a855f7;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* when you hover over a button */
+nav ul li a:hover {
+    background-color: #a855f7;
+    color: white;
+    box-shadow: 0 0 15px #a855f7;
+    transform: translateY(-3px);
+}
+
+/* when you click a button */
+nav ul li a:active {
+    background-color: #ec4899;
+    border-color: #ec4899;
+    transform: scale(0.95);
+}
+
+/* keyboard */
+nav ul li a:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 4px;
+}
+
+
+
+
+
+
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 19px;
+    margin: 0;
+    color: #fdfeff;
+}
+
+
+
+
+
+
+/* Imperfecte */
+.Imperfecte {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-size: clamp(48px, 7vw, 100px);
+    font-style: normal;
+    color: #dadaf4;
+}
+
+/* perfectie */
+.perfectie {
+    font-family: "Kristi", cursive;
+    font-weight: 400;
+    font-size: clamp(65px, 9vw, 120px);
+    color: #dadaf4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* informatie pagina */ 
+.Informatie {
+    background-image: url(info.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.Informatie-context {
+    background-color: rgba(158, 181, 237, 0.6);
+    max-width: 850px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.Informatie h1{
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.informatie-link {
+    text-decoration: underline !important;
+    color: #000000;
+    font-weight: bold;
+}
+
+.informatie-link:hover {
+    color: #bd19b2;
+}
+
+
+/* Info Hub: white sections per subtitle */
+.info-section {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+/* sub  */
+.info-section h2 {
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs inside each section */
+.info-section p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 15px 0;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.info-section p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+/* bronnen pagina */
+.Bronnen {
+    background-image: url("voorpagina.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* inhoud van de bronnenpagina */
+.bronnen {
+    max-width: 750px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(36, 16, 68, 0.8);
+    border-radius: 16px;
+}
+
+/* Hoofdtitel */
+.bronnen h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: #f8ead9;
+}
+
+/* titels van twee categorieën */
+.bronnen h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.bronnen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+/* knoppen */
+.source-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65px;
+    padding: 15px;
+    box-sizing: border-box;
+
+    background-color: #782e9b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #a855f7;
+    border-radius: 12px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    transition: background-color 0.2s ease,
+    transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+/* hover */
+.source-button:hover {
+    background-color: #241044;
+    transform: translateY(-3px);
+    box-shadow: 0 0 12px #a855f7;
+}
+
+
+.source-button:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 4px;
+}
+
+/* weergave laptop of mobiel */
+@media (max-width: 500px) {
+    .bronnen {
+        padding: 20px;
+        margin: 25px auto;
+    }
+
+    .bronnen h1 {
+        font-size: 32px;
+    }
+
+    .bronnen h2 {
+        font-size: 21px;
+    }
+
+    .bronnen-grid {
+        grid-template-columns: 1fr;
+    }
+}
